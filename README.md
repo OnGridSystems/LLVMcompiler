@@ -40,6 +40,12 @@ Run LLVM IR
 ```
 lli /path/to/LLVM_IR/source.ll
 ```
+
+Example LLL code which can be compiled
+```
+(/ 10 (- 4 2))
+```
+
 ## Further Steps and Problems to solve
 The first problem which should be solved is storing smart-contract code in a blockchain and decoupling contract creation (construct) part from the smart-contract body. 
 At EVM this problem solved by returning smart-contract bytecode at contract creation stage.
